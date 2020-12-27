@@ -1,0 +1,56 @@
+/****************** Selector Tags ************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Papyrus, cursive, serif;
+
+  background-image: url('https://il8.picdn.net/shutterstock/videos/18410146/thumb/1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-attachment: fixed;
+}
+div {
+
+  position: relative;
+  margin: 0;
+  padding: 5px;
+}
+h1 {
+  margin: 0;
+}
+header {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+hr {
+  border-color: #cdac81;
+  border-style: dotted none none none;
+  border-width: 15px;
+  width: 15%;
+}
+a {
+  color: #cdac81;
+}
+/****************** Class Tags ************************/
+.bottom-container{
+  color: #f5f4f4;
+}
+.middle-container{
+  color: #f5f4f4;
+}
+.top-container{
+  color: #f5f4f4;
+}
+.comp{
+  border-radius: 150%;
+}
+/****************** ID Tags ************************/
+#profilePic{
+  border-radius: 150%;
+  position: relative;
+  height: 250px;
+  width: 125;
+
+}
