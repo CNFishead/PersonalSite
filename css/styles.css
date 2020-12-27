@@ -31,6 +31,9 @@ hr {
 }
 a {
   color: #cdac81;
+  font-size: 20px;
+  font-family: serif;
+
 }
 /****************** Class Tags ************************/
 .bottom-container{
@@ -38,13 +41,30 @@ a {
   font-size: 30px;
   color: #f5f4f4;
 }
+.certificate{
+  background-color: #cae4db;
+  border-radius: 15%;
+  position:absolute;
+  margin-left: 40%;
+}
+.comp{
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+}
+.contact-me{
+  font-size: 20px;
+}
 .education{
-  background-color: #eeeeee;
+  background-color: #cae4db;
   position: relative;
-  display: block;
+  color: #00303f;
+  opacity: .80;
 }
 
 .middle-container{
+  width: 60%;
+  margin: 0 auto;
   color: #f5f4f4;
 }
 .NavBar{
@@ -57,25 +77,27 @@ a {
   padding-right: 10px;
 }
 .projectTable{
-  background-color: #eeee;
+  background-color: #00303f;
+  color: #cdac81;
+  opacity: .85;
   text-align: left;
 }
+.projectName{
+  font-family: serif;
+  font-size: 20px;
+}
 .top-container{
+  font-size: 35px;
   position: relative;
   color: #f5f4f4;
   padding-top: 10px;
 }
-.comp{
-  border-radius: 100%;
-  width: 40%;
-  height: 40%;
-}
-.contact-me{
-  font-size: 20px;
-}
 .work-experience{
-  background-color: #eeeeee;
+  background-color: #cae4db;
   position: relative;
+  color: #00303f;
+  opacity: .80;
+
 }
 /****************** ID Tags ************************/
 #profilePic{
@@ -86,4 +108,14 @@ a {
 }
 #mark{
   font-size: 15px;
+}
+#projectHeader{
+  font-family: serif;
+  text-align: center;
+  font-size: 100px;
+}
+#title{
+  font-size: 25px;
+  font-family: serif;
+  color: #cdac81;
 }
