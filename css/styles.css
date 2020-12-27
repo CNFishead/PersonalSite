@@ -1,5 +1,6 @@
 /****************** Selector Tags ************************/
 body {
+  position: relative;
   margin: 0;
   text-align: center;
   font-family: Papyrus, cursive, serif;
@@ -12,8 +13,6 @@ body {
   background-attachment: fixed;
 }
 div {
-
-  position: relative;
   margin: 0;
   padding: 5px;
 }
@@ -35,16 +34,47 @@ a {
 }
 /****************** Class Tags ************************/
 .bottom-container{
+  font-family: serif;
+  font-size: 30px;
   color: #f5f4f4;
 }
+.education{
+  background-color: #eeeeee;
+  position: relative;
+  display: block;
+}
+
 .middle-container{
   color: #f5f4f4;
 }
+.NavBar{
+  text-align: right;
+  font-family: serif;
+  font-size: 20px;
+  right: 0;
+  top: 2%;
+  padding-right: 10px;
+}
+.projectTable{
+  background-color: #eeee;
+  text-align: left;
+}
 .top-container{
+  position: relative;
   color: #f5f4f4;
+  padding-top: 10px;
 }
 .comp{
-  border-radius: 150%;
+  border-radius: 100%;
+  width: 40%;
+  height: 40%;
+}
+.contact-me{
+  font-size: 20px;
+}
+.work-experience{
+  background-color: #eeeeee;
+  position: relative;
 }
 /****************** ID Tags ************************/
 #profilePic{
@@ -52,5 +82,7 @@ a {
   position: relative;
   height: 250px;
   width: 125;
-
+}
+#mark{
+  font-size: 15px;
 }
