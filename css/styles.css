@@ -35,17 +35,29 @@ a {
   font-family: serif;
 
 }
+table{
+  background-color: #00303f;
+  color: #cdac81;
+  opacity: .85;
+  text-align: center;
+  margin: 5px 5px;
+  border: 5px;
+  border-style: solid;
+  table-layout:fixed;
+  width: 100%;
+}
+td{
+  border: 2.5px;
+  border-style: solid;
+}
+th{
+  text-align: center;
+}
 /****************** Class Tags ************************/
 .bottom-container{
   font-family: serif;
   font-size: 30px;
   color: #f5f4f4;
-}
-.certificate{
-  background-color: #cae4db;
-  border-radius: 15%;
-  position:absolute;
-  margin-left: 40%;
 }
 .comp{
   border-radius: 100%;
@@ -76,12 +88,13 @@ a {
   top: 2%;
   padding-right: 10px;
 }
-.projectTable{
-  background-color: #00303f;
-  color: #cdac81;
-  opacity: .85;
-  text-align: left;
+.projectDivider{
+  border-color: #cdac81;
+  border-style: solid;
+  width: 90%;
+
 }
+
 .projectName{
   font-family: serif;
   font-size: 20px;
