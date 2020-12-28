@@ -1,4 +1,3 @@
-'''
 # A tip calculator
 # A tip calculator using a GUI interface
 # Austin Howard Aug - 13 - 2014
@@ -99,4 +98,3 @@ root = Tk()
 root.title("Tip Calculator")
 app = Calculator(root)
 root.mainloop()
-'''
