@@ -3,21 +3,20 @@ body {
   position: relative;
   margin: 0;
   text-align: center;
-  font-family: Papyrus, cursive, serif;
+  font-family: serif;
 
   background-image: url('https://il8.picdn.net/shutterstock/videos/18410146/thumb/1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100%;
+  padding-top: 10px;
   background-attachment: fixed;
 }
 div {
   margin: 0;
-  padding: 5px;
+  padding: 0.3125rem;
 }
-h1 {
-  margin: 0;
 }
 header {
   margin-top: 0;
@@ -53,8 +52,14 @@ td{
 th{
   text-align: center;
 }
+nav{
+  background-color: #eeee;
+  text-align: right;
+}
 /****************** Class Tags ************************/
+
 .bottom-container{
+  background-color: #00303f;
   font-family: serif;
   font-size: 30px;
   color: #f5f4f4;
@@ -65,7 +70,7 @@ th{
   height: 40%;
 }
 .contact-me{
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 .education{
   background-color: #cae4db;
@@ -83,10 +88,13 @@ th{
   background-color: #00303f;
   text-align: right;
   font-family: serif;
-  font-size: 20px;
+  font-size: 1.25rem;
   right: 0;
   top: 2%;
   padding-right: 10px;
+}
+.profile{
+  text-align: left;
 }
 .projectDivider{
   border-color: #cdac81;
@@ -94,16 +102,25 @@ th{
   width: 90%;
 
 }
-
+.Projects{
+  text-align: center;
+}
 .projectName{
   font-family: serif;
-  font-size: 20px;
+  font-size: 1.25rem;
+}
+.projectTitle{
+  margin-right: 10rem;
+  text-align: center;
 }
 .top-container{
-  font-size: 35px;
-  position: relative;
   color: #f5f4f4;
+  font-size: 2.05rem;
+  line-height: 1;
   padding-top: 10px;
+  position: relative;
+  font-family: fantasy, serif, sans-serif;
+
 }
 .work-experience{
   background-color: #cae4db;
@@ -113,14 +130,18 @@ th{
 
 }
 /****************** ID Tags ************************/
-#profilePic{
-  border-radius: 150%;
-  position: relative;
-  height: 250px;
-  width: 125;
+#greeting{
+  margin-left: 45%;
 }
 #mark{
-  font-size: 15px;
+  font-size: 1rem;
+}
+#profilePic{
+  border-radius: 150%;
+  height: 250px;
+  width: 125;
+  float: left;
+  margin-right: 20px;
 }
 #projectHeader{
   font-family: serif;
@@ -128,7 +149,8 @@ th{
   font-size: 100px;
 }
 #title{
-  font-size: 25px;
-  font-family: serif;
   color: #cdac81;
+  font-size: 1.5rem;
+  font-family: serif;
+  font-weight: bold;
 }
