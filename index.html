@@ -35,45 +35,49 @@
   <body>
 
     <nav class="navbar fixed-top navbar-dark bg-transparent">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Resume.html">Resume</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="Projects.html">Projects</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="skills.html" tabindex="-1" aria-disabled="true">skills</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="skills.html" tabindex="-1" aria-disabled="true">skills</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div class="top-container">
-      <h1>Austin Howard</h1>
-      <p id='title'>Junior Software Engineer</p>
+      <div class='row'>
+        <h1>Austin Howard</h1>
+        <p id='title'>Junior Software Engineer</p>
+      </div>
     </div>
     <div class="middle-container">
-      <div class="profile">
-        <img id='profilePic' src="Images\AustinProfile.jpg" alt="Profile Picture">
-        <h2 id='greeting'>Hello.</h2>
-        <p>I am a Junior software developer who has studied extensively
-          at institutions such KCTCS and SNHU. A father and husband who aspires
-          to change the world through code. Throughout my career, I have contributed to positive
-          business results through effective organization, prioritization, and follow-through of key organizational projects.
-          In my former Loader and Unloader role, I exercised a calculated and methodical approach to problem-solving. While I am independently motivated,
-          I appreciate collective efforts and collaborate productively within group settings.</p>
+      <div class="row">
+        <div class='col-lg-6'><img id='profilePic' src="Images\AustinProfile.jpg" alt="Profile Picture"></div>
+        <div class="col-lg-6 greeting">
+          <h2 id='greeting'>Hello.</h2>
+          <p>I am a Junior software developer who has studied extensively
+            at institutions such KCTCS and SNHU. A father and husband who aspires
+            to change the world through code. Throughout my career, I have contributed to positive
+            business results through effective organization, prioritization, and follow-through of key organizational projects.
+            In my former Loader and Unloader role, I exercised a calculated and methodical approach to problem-solving. While I am independently motivated,
+            I appreciate collective efforts and collaborate productively within group settings.</p>
+        </div>
       </div>
-      <hr>
+    <hr>
       <div class="Projects">
         <h2 class='projectTitle'>My Projects</h2>
         <div class="projects-row">
@@ -83,7 +87,7 @@
           </p>
         </div>
       </div>
-      <hr>
+        <hr>
       <div class="contact-me">
         <h2>Get In Touch</h2>
         <p>Connect with me on LinkedIn, or Email me directly!</p>
