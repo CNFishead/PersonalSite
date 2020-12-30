@@ -88,7 +88,7 @@ nav{
   text-align: left;
 }
 .projectDivider{
-  border-color: #cdac81;
+  border-color: #00303f;
   border-style: solid;
   width: 90%;
 
@@ -113,9 +113,11 @@ nav{
   font-family: fantasy, serif, sans-serif;
 
 }
-.resumeBackgroundStyles{
+.tableBackgroundStyles{
+  opacity: 90%;
   margin: 3.5rem auto 0 auto;
-  background-color: #eeee;
+  background-color: #00303f;
+  color: #cdac81;
   width: 80%;
 }
 
