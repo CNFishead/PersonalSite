@@ -146,6 +146,9 @@ nav{
   text-align: center;
   font-size: 100px;
 }
+#namePlate{
+  font-size: 4rem;
+}
 #title{
   color: #cdac81;
   font-size: 1.5rem;
