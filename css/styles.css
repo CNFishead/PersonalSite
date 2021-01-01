@@ -57,15 +57,16 @@ nav{
   font-size: 3rem;
 }
 .projectCol{
-  margin: 0 auto;
-  padding: 5%;
 }
 .card{
   opacity: .90;
   background-color: #00303f;
   color: #cdac81;
   padding: 5%;
-  border-radius: 10%;
+  border-style: inset;
+  border-color: #cdac81;
+  border-width: 5px;
+  border-radius: 1%;
 }
 .card-text{
   text-align: left;
@@ -117,12 +118,12 @@ nav{
 
 }
 
-.projectDivider{
+/* .projectDivider{
   border-color: #00303f;
   border-style: solid;
   width: 90%;
 
-}
+} */
 .Projects{
   text-align: center;
 }
