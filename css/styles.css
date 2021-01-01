@@ -49,12 +49,40 @@ nav{
 }
 /****************** Class Tags ************************/
 
+/* *****************Project Cards ************************ */
+.projectTitle{
+  color: #cdac81;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.projectCol{
+  margin: 0 auto;
+  padding: 5%;
+}
+.card{
+  opacity: .90;
+  background-color: #00303f;
+  color: #cdac81;
+  padding: 5%;
+  border-radius: 10%;
+}
+.card-text{
+  text-align: left;
+  color: #cdac81;
+}
+.card-image{
+ align-self: center;
+  width: 90%;
+}
+
 .bottom-container{
   background-color: #00303f;
   font-family: serif;
   font-size: 30px;
   color: #f5f4f4;
 }
+
 .comp{
   border-radius: 100%;
   width: 40%;
@@ -86,7 +114,9 @@ nav{
 }
 .profile{
   text-align: left;
+
 }
+
 .projectDivider{
   border-color: #00303f;
   border-style: solid;
@@ -100,10 +130,7 @@ nav{
   font-family: serif;
   font-size: 1.25rem;
 }
-.projectTitle{
-  margin-right: 10rem;
-  text-align: center;
-}
+
 .top-container{
   color: #f5f4f4;
   font-size: 2.05rem;
@@ -114,7 +141,7 @@ nav{
 
 }
 .tableBackgroundStyles{
-  opacity: 90%;
+  opacity: .90;
   margin: 3.5rem auto 0 auto;
   background-color: #00303f;
   color: #cdac81;
@@ -138,8 +165,6 @@ nav{
   border-radius: 150%;
   height: 31.25rem;
   width: 15.625rem;
-  /* float: left;
-  margin-right: 20px; */
 }
 #projectHeader{
   font-family: serif;
@@ -147,6 +172,7 @@ nav{
   font-size: 100px;
 }
 #namePlate{
+  padding-top: 3rem;
   font-size: 4rem;
 }
 #title{
