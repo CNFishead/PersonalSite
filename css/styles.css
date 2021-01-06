@@ -2,7 +2,6 @@
 body {
   position: relative;
   margin: 0;
-  text-align: center;
   font-family: serif;
 
   background-image: url('https://il8.picdn.net/shutterstock/videos/18410146/thumb/1.jpg');
@@ -47,7 +46,16 @@ nav{
   border-color: #eeee;
   text-align: right;
 }
-/****************** Class Tags ************************/
+
+/****************** Opening Page ************************/
+.opening-page{
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+}
 
 /* *****************Project Cards ************************ */
 .projectTitle{
@@ -76,8 +84,13 @@ nav{
  align-self: center;
   width: 90%;
 }
+.card-title, .card-body{
+  text-align: center;
+}
+
 
 .bottom-container{
+  text-align: center;
   background-color: #00303f;
   font-family: serif;
   font-size: 30px;
@@ -90,6 +103,7 @@ nav{
   height: 40%;
 }
 .contact-me{
+  text-align: center;
   font-size: 1.25rem;
 }
 .greeting{
@@ -118,12 +132,6 @@ nav{
 
 }
 
-/* .projectDivider{
-  border-color: #00303f;
-  border-style: solid;
-  width: 90%;
-
-} */
 .Projects{
   text-align: center;
 }
@@ -173,10 +181,12 @@ nav{
   font-size: 100px;
 }
 #namePlate{
+  text-align: center;
   padding-top: 3rem;
   font-size: 4rem;
 }
 #title{
+  text-align: center;
   color: #cdac81;
   font-size: 1.5rem;
   font-family: serif;
