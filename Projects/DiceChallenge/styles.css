@@ -9,7 +9,9 @@
   display: inline-block;
 
 }
-
+button{
+  background-color: black;
+}
 body {
   background-color: #393E46;
 }
