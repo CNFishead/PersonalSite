@@ -81,6 +81,8 @@ nav{
   border-color: #cdac81;
   border-width: 5px;
   border-radius: 1%;
+  height: 100%;
+  width: 100%;
 }
 .card-text{
   text-align: left;
@@ -144,6 +146,9 @@ nav{
 .projectName{
   font-family: serif;
   font-size: 1.25rem;
+}
+.pRow {
+  --bs-gutter-x: .5rem;
 }
 
 .top-container{
