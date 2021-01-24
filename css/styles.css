@@ -1,17 +1,4 @@
 /****************** Selector Tags ************************/
-body {
-  position: relative;
-  margin: 0;
-  font-family: serif;
-
-  background-image: url('https://il8.picdn.net/shutterstock/videos/18410146/thumb/1.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100%;
-  padding-top: 10px;
-  background-attachment: fixed;
-}
 div {
   margin: 0;
   padding: 0.3125rem;
@@ -19,12 +6,6 @@ div {
 header {
   margin-top: 0;
   margin-bottom: 0;
-}
-a {
-  color: #cdac81;
-  font-size: 20px;
-  font-family: serif;
-
 }
 table{
   opacity: .85;
@@ -41,11 +22,43 @@ td{
 th{
   text-align: center;
 }
+
+
+/* **************Site Wide Stuff**************** */
+a {
+  color: #cdac81;
+  font-size: 20px;
+  font-family: serif;
+
+}
+body {
+  position: relative;
+  margin: 0;
+  font-family: serif;
+
+  background-image: url('https://i.imgur.com/Yr32yur.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  padding-top: 10px;
+  background-attachment: fixed;
+}
+.NavBar{
+  background-color: #00303f;
+  text-align: right;
+  font-family: serif;
+  font-size: 1.25rem;
+  right: 0;
+  top: 2%;
+  padding-right: 10px;
+}
 nav{
   background-color: #eeee;
   border-color: #eeee;
   text-align: right;
 }
+
 
 /****************** Opening Page ************************/
 .opening-page{
@@ -63,40 +76,8 @@ nav{
   padding-left: 40%;
 }
 
-/* *****************Project Cards ************************ */
-.projectTitle{
-  color: #cdac81;
-  margin-top: 4rem;
-  text-align: center;
-  font-size: 3rem;
-}
-.projectCol{
-}
-.card{
-  opacity: .90;
-  background-color: #00303f;
-  color: #cdac81;
-  padding: 5%;
-  border-style: inset;
-  border-color: #cdac81;
-  border-width: 5px;
-  border-radius: 1%;
-  height: 100%;
-  width: 100%;
-}
-.card-text{
-  text-align: left;
-  color: #cdac81;
-}
-.card-image{
- align-self: center;
-  width: 90%;
-}
-.card-title, .card-body{
-  text-align: center;
-}
 
-
+/*****************Homepage*********************************/
 .bottom-container{
   text-align: center;
   background-color: #00303f;
@@ -104,7 +85,6 @@ nav{
   font-size: 30px;
   color: #f5f4f4;
 }
-
 .comp{
   border-radius: 100%;
   width: 40%;
@@ -126,31 +106,10 @@ nav{
   color: #f5f4f4;
   font-size: 1.4rem;
 }
-.NavBar{
-  background-color: #00303f;
-  text-align: right;
-  font-family: serif;
-  font-size: 1.25rem;
-  right: 0;
-  top: 2%;
-  padding-right: 10px;
-}
 .profile{
   text-align: left;
 
 }
-
-.Projects{
-  text-align: center;
-}
-.projectName{
-  font-family: serif;
-  font-size: 1.25rem;
-}
-.pRow {
-  --bs-gutter-x: .5rem;
-}
-
 .top-container{
   color: #f5f4f4;
   font-size: 2.05rem;
@@ -160,6 +119,86 @@ nav{
   font-family: fantasy, serif, sans-serif;
 
 }
+
+#greeting{
+  text-align: center;
+}
+#mark{
+  font-size: 1rem;
+}
+#profilePic{
+  border-radius: 150%;
+  height: 31.25rem;
+  width: 15.625rem;
+  margin-left: 25%;
+
+}
+#namePlate{
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 4rem;
+}
+#title{
+  text-align: center;
+  color: #cdac81;
+  font-size: 1.5rem;
+  font-family: serif;
+  font-weight: bold;
+}
+
+/* *****************Project Cards ************************ */
+.projectTitle{
+  color: #cdac81;
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 3rem;
+}
+.card{
+  opacity: .90;
+  background-color: #00303f;
+  color: #cdac81;
+  border-style: inset;
+  border-color: #cdac81;
+  border-width: 5px;
+  border-radius: 1%;
+}
+.card-text{
+  text-align: left;
+  color: #cdac81;
+}
+.card-image{
+  align-self: center;
+  width: 90%;
+}
+.card-title, .card-body{
+  text-align: center;
+}
+.card-body{
+  
+}
+.projectCarousel{
+  height: 62.5rem;
+}
+.projectCol{
+  width:auto;
+  height: auto;
+}
+.projectName{
+  font-family: serif;
+  font-size: 1.25rem;
+}
+#projectHeader{
+  font-family: serif;
+  text-align: center;
+  font-size: 100px;
+}
+.owl-carousel{
+  height: 62.5rem;
+}
+
+
+
+/******************* Resume page **********************/
 .tableBackgroundStyles{
   opacity: .90;
   margin: 3.5rem auto 0 auto;
@@ -175,33 +214,3 @@ nav{
   margin: 5px auto 5px auto;
 }
 /****************** ID Tags ************************/
-#greeting{
-  text-align: center;
-}
-#mark{
-  font-size: 1rem;
-}
-#profilePic{
-  border-radius: 150%;
-  height: 31.25rem;
-  width: 15.625rem;
-  margin-left: 25%;
-
-}
-#projectHeader{
-  font-family: serif;
-  text-align: center;
-  font-size: 100px;
-}
-#namePlate{
-  text-align: center;
-  padding-top: 3rem;
-  font-size: 4rem;
-}
-#title{
-  text-align: center;
-  color: #cdac81;
-  font-size: 1.5rem;
-  font-family: serif;
-  font-weight: bold;
-}
