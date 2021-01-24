@@ -94,6 +94,9 @@ nav{
   text-align: center;
   font-size: 1.25rem;
 }
+.footer-link{
+  font-size: 2rem;
+}
 .greeting{
   border-radius: 10%;
   border-style: groove;
@@ -108,7 +111,9 @@ nav{
 }
 .profile{
   text-align: left;
-
+}
+.Projects{
+  text-align: center;
 }
 .top-container{
   color: #f5f4f4;
@@ -174,7 +179,7 @@ nav{
   text-align: center;
 }
 .card-body{
-  
+
 }
 .projectCarousel{
   height: 62.5rem;

@@ -41,3 +41,11 @@ $(".owl-carousel").owlCarousel({
 
                   },
  });
+
+ // set height of all cards to max height
+ const cards = Array.from(document.querySelectorAll('.card'));
+ const cardHeights = cards.map(card => card.offsetHeight);
+ const maxCardHeight = Math.max(...cardHeights);
+ cards.forEach(card => {
+   card.style.height = maxCardHeight + 'px';
+ });
