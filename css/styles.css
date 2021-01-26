@@ -58,7 +58,9 @@ nav{
   border-color: #eeee;
   text-align: right;
 }
-
+h1{
+  text-align: center;
+}
 
 /****************** Opening Page ************************/
 .opening-page{
