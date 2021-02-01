@@ -16,30 +16,26 @@ $(".owl-carousel").owlCarousel({
      responsive: {
        0: {
           items:1,
-          // margin: 150,
           center: true
 
           },
 
        768: {
             items:1,
-            // margin:200,
             center: false
             },
 
        992: {
             items:2,
-            // margin: 35,
             center: true
             },
 
        1200: {
              items:3,
-             // margin:250,
              center: true
              },
-
                   },
+
  });
 
  // set height of all cards to max height

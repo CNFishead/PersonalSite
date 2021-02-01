@@ -200,7 +200,7 @@ h1{
   font-size: 100px;
 }
 .owl-carousel{
-  /* height: 62.5rem; */
+  height: 50rem;
 }
 .owl-carousel:last-child{
   margin-top: auto;
